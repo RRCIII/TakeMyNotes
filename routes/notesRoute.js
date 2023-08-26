@@ -1,8 +1,9 @@
-const  = require('express').Router();
 
 
 
-let activeNote = { getNotes, saveNote, deleteNote };
+
+
+let  = { getNotes, saveNote, deleteNote };
 
 const getNotes = () =>
   fetch('/api/notes', {
@@ -30,4 +31,4 @@ const deleteNote = (id) =>
   });
 
 
-exports = activeNote
+module.exports = activeNote;
