@@ -54,8 +54,8 @@ router.delete("/:id", async (req, res) => {
 
   // WriteFile() to update dbFilePath.json array; if successful : send status code 204 for "no-content";
   try {
-    await fsPromises.writeFile(dbFilePath, JSON.stringify(noteData, null, 2));
-    res.status(204).json(noteData);
+    await fsPromises.writeFile(dbFilePath, JSON.stringify(notesData, null, 2));
+    res.status(204).json(notesData);
     console.log(notesData);
   } catch (error) {
     console.log("Error deleting note from mock db.json");
