@@ -33,5 +33,5 @@ app.get('*', (req, res) => {
 
 // Server listening on localhost
 app.listen(PORT, () => {
-    console.log(`Ready to listen to ${PORT}`);
+    console.log(`Server ready to listen to ${PORT}`);
 })

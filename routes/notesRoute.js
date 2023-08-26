@@ -1,34 +1,15 @@
+const express = require('express');
+const path = require('path');
+const fsPromises = require('fs').promises;
+const { v4: uuidv4 } = require('uuid');
+
+// Mock database for storing notes data
+const notesData = require('../db/db.json');
 
 
 
 
 
-let  = { getNotes, saveNote, deleteNote };
-
-const getNotes = () =>
-  fetch('/api/notes', {
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
-
-const saveNote = (note) =>
-  fetch('/api/notes', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(note),
-  });
-
-const deleteNote = (id) =>
-  fetch(`/api/notes/${id}`, {
-    method: 'DELETE',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
 
 
 module.exports = activeNote;
