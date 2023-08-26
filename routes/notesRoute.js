@@ -26,7 +26,7 @@ router.post("/", async (req, res) => {
 
   // WriteFile() to update db.json array; if sucessful send .json w/ status code 201 for "created"
   try {
-    await fsPromises.wrtieFile(dbFilePath, JSON.stringify(notesData, null, 2));
+    await fsPromises.writeFile(dbFilePath, JSON.stringify(notesData, null, 2));
     res.status(200).json(req.body);
     console.log(notesData);
   } catch (error) {
