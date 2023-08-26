@@ -3,10 +3,17 @@ const cors = require('cors');
 const  path = require('path');
 const app = express();
 
+const PORT = process.env.PORT || 5000;
+
 // Router imported 
 const noteRoutes = require('./routes/notesRoute');
 
-const PORT = process.env.PORT || 5000;
+// Cors middleware
+app.use(cors({
+    origin: "same-origin", // All same-origin only 
+    methods: ['GET, POST, DELETE'], // Allow GET, POST, DELETE HTTP methods
+    optionsSuccessStatus: 200 // send '200 ok' as sucsessful preflight response, for legacy browser compatability
+}));
 
 //Middleware for serving static files 
 app.use(express.static('public'));
