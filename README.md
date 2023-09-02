@@ -10,7 +10,7 @@ This project comprised of a completed app called Take my notes that uses the CRU
 
 - #### Notes taken and will be stored in the database
 
-<img width="230px" src="./images/Screenshot_Note_Taker.png" />
+<img width="500px" src="./images/Screenshot_Note_Taker.png" />
 
 ## Credits
 
