@@ -57,7 +57,7 @@ router.delete("/:id", async (req, res) => {
     await fsPromises.writeFile(dbFilePath, JSON.stringify(notesData, null, 2));
     res.status(204).json(notesData);
     console.log(notesData);
-  } catch (error) {
+  } catch {
     console.log("Error deleting note from mock db.json");
     res.status(500).json({ error: "Error; Note was not written to db.json" });
   }

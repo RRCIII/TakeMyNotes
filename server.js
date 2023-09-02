@@ -28,7 +28,7 @@ app.get('/notes', (req, res) => {
 
 //send index.html to all paths 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public' , 'index.html'))
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
 });
 
 // Server listening on localhost
