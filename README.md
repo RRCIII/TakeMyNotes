@@ -1,46 +1,16 @@
-# Logo Generator • [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Note Take My Notes • [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This is a logo generator to that allows the user to input criteria that will generate a logo upon results given from the prompts proposed. With the use of jest, inquirer, and validate-color installed, the code was able to be tested and written to a file to generate a SVG logo.
-
-## Video Demonstration of Application
-
-- [Click Here](https://drive.google.com/file/d/1STJNx7WALSDPqV_M8ehWdmBSrmldN3oC/view)
+This project comprised of a completed app called Take my notes that uses the CRUD (CREATE, READ, and DELETE) method and store notes to a database.
 
 ## Installation
 
-- Required: npm i or install
-- Required: Install jest
-- Required: Install inquirer@8.2.4
-- Required: Install validate-color
+- Required: node.js
 
-## Usage
+- #### Notes taken and will be stored in the database
 
-- #### Clone the repository
-
-<img width="400px" height="300px" src="./utils/Screenshot-logoGenerator-repository.png"/>
-
-- #### Open up a terminal and change directories into the repo. Type in:
-
-```
-npm install
-```
-
-- #### Once the npm install is complete, go ahead and type:
-
-```
-node index.js
-npm run test
-```
-
-- #### Input the following information to create your logo
-
-<img width="650px" src="./utils/Screenshot-logoGenerator-prompt.png" /><br/>
-
-- #### Logo file will be built into the dist folder upon completion
-
-<img width="230px" src="./utils/Screenshot-logoGenerator-logo.png" />
+<img width="230px" src="./images/Screenshot_Note_Taker.png" />
 
 ## Credits
 
