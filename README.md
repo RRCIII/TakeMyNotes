@@ -2,12 +2,15 @@
 
 ## Description
 
-This project comprised of a completed app called Take my notes that uses the CRUD (CREATE, READ, and DELETE) method and store notes to a database.
+This project comprised of a completed app called Take my notes that uses the CRUD (CREATE, READ, and DELETE) method and store notes to a database for a better UI experience.
 
 ## Installation
 
 - Required: node.js
 
+### Link to deployed application
+
+- [Click Here]()
 - #### Notes taken and will be stored in the database
 
 <img width="500px" src="./images/Screenshot_Note_Taker.png" />
