@@ -10,7 +10,7 @@ This project comprised of a completed app called Take my notes that uses the CRU
 
 ### Link to deployed application
 
-- [Click Here]()
+- [Click Here](https://takemynotes-79540f9bd0ca.herokuapp.com/)
 - #### Notes taken and be stored in the database
 
 <img width="500px" src="./images/Screenshot_Note_Taker.png" />
