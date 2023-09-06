@@ -2,7 +2,7 @@
 
 ## Description
 
-This project comprised of a completed app called Take my notes that uses the CRUD (CREATE, READ, and DELETE) method and store notes to a database for a better UI experience.
+This project comprised of a completed app called Take my notes that uses the CRUD (CREATE, READ, and DELETE) method and store notes to a database for a better UI experience. Deployed and hosted by Heroku.
 
 ## Installation
 
